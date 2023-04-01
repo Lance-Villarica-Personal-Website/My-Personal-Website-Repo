@@ -1,0 +1,40 @@
+html {
+  font-size: 16px;
+  font-family: "Open-Sans";
+}
+
+a {
+  font-size: x-large;
+  margin-left: 150px;
+  color: black;
+}
+
+header {
+  background-color: rgb(115, 201, 238);
+}
+
+body {
+  background-color: rgb(241, 244, 245);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.media-link {
+  height: 32px;
+}
+
+footer {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgb(214, 212, 208);
+}
