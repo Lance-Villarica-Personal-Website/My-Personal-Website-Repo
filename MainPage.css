@@ -25,6 +25,11 @@ body {
   border-radius: 100%;
 }
 
+.about{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
 .media-link {
   height: 32px;
 }
