@@ -34,6 +34,11 @@ body {
   height: 32px;
 }
 
+main{
+  margin: 10px;
+  padding: 5px;
+}
+
 footer {
   box-sizing: border-box;
   position: fixed;
