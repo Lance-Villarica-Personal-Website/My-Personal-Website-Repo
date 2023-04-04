@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Open-Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"),
+    url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff)
+      format("woff");
+}
+
+html {
+  font-size: 16px;
+  font-family: "Open-Sans";
+  background-size: cover;
+  background-image: url(https://wallpapercave.com/wp/wp8093382.jpg);
+}
+
+a {
+  font-size: x-large;
+  margin-left: 150px;
+  color: black;
+}
+
+header {
+  background-color: rgb(115, 201, 238);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px -2px black;
+}
+
+body {
+  background-color: rgb(214, 212, 208);
+  box-shadow: 0 0 12px -2px black;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 65px;
+}
+
+.profilepic {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.about {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.media-link {
+  height: 32px;
+}
+
+main {
+  margin: 10px;
+  padding: 5px;
+}
+
+div {
+  margin: 10px;
+  padding: 5px;
+}
+
+footer {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgb(241, 244, 245);
+  box-shadow: 0 -2px 4px -2px black;
+}
