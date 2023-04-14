@@ -20,13 +20,17 @@ a {
   color: black;
 }
 
+a:hover {
+  color: #e9e5e3;
+}
+
 header {
   background-color: rgb(115, 201, 238);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  padding: 10px;
+  padding: .5em;
   text-align: center;
   box-shadow: 0 2px 4px -2px black;
 }
@@ -41,6 +45,9 @@ body {
 }
 
 .profilepic {
+  position:relative;
+  z-index: 1;
+  display: flex;
   width: 300px;
   height: 300px;
   border-radius: 100%;
@@ -62,6 +69,8 @@ main {
 }
 
 div {
+  display: flex;
+  column-gap: 50px;
   margin: 10px;
   padding: 5px;
 }
@@ -75,4 +84,13 @@ footer {
   text-align: center;
   background-color: rgb(241, 244, 245);
   box-shadow: 0 -2px 4px -2px black;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Styles for iPad portrait mode */
+  .body {
+    width: 768px;
+    height: 1024px;
+    border-radius: 70px;
+  }
 }
