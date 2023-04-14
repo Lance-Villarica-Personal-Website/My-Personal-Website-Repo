@@ -20,6 +20,10 @@ a {
   color: black;
 }
 
+a:hover {
+  color: #e9e5e3;
+}
+
 header {
   background-color: rgb(115, 201, 238);
   position: fixed;
@@ -41,6 +45,8 @@ body {
 }
 
 .profilepic {
+  z-index: 1;
+  display: flex;
   width: 300px;
   height: 300px;
   border-radius: 100%;
@@ -75,4 +81,13 @@ footer {
   text-align: center;
   background-color: rgb(241, 244, 245);
   box-shadow: 0 -2px 4px -2px black;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Styles for iPad portrait mode */
+  .body {
+    width: 768px;
+    height: 1024px;
+    border-radius: 70px;
+  }
 }

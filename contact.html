@@ -9,7 +9,7 @@
   <body>
     <header>
       <nav class="links">
-        <a class="active" href="MainPage.html">Home</a>
+        <a class="active" href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
@@ -22,12 +22,16 @@ action="https://formspree.io/f/xayzloga"
 method="POST"
 >
 <label>
+  Your name:
+  <input required="" type="name" name="name">
+</label>
+<label>
   Your email:
-  <input type="email" name="email">
+  <input required="" type="email" name="email">
 </label>
 <label>
   Your message:
-  <textarea name="message"></textarea>
+  <textarea placeholder="Your message here..." name="message"></textarea>
 </label>
 <!-- your other form fields go here -->
 <button type="submit">Send</button>
